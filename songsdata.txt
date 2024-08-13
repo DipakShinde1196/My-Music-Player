@@ -1,0 +1,84 @@
+{
+        name:"Ve Kamleya",
+        path:"song1.mp3",
+        image:"img1.jpg",
+        singer:"Arjit Singh"
+    },
+    {
+        name:"Ve Haniya",
+        path:"song2.mp3",
+        image:"img2.jpg",
+        singer:"Jubin Nautiyal"
+    },
+    {
+        name:"O Sajani Re",
+        path:"song3.mp3",
+        image:"img3.jpg",
+        singer:"Arjit Singh"
+    },
+    {
+        name:"O Mahi O Mahi",
+        path:"song4.mp3",
+        image:"img4.jpg",
+        singer:"Arjit Singh"
+    },
+    {
+        name:"Mashup",
+        path:"song5.mp3",
+        image:"img5.jpg",
+        singer:"All Singers Mashup"
+    },
+    {
+        name:"Mere Mehboob Mere Sanam",
+        path:"song6.mp3",
+        image:"img6.jpg",
+        singer:"Udit Narayan"
+    },
+    {
+        name:"Ram Siya Ram",
+        path:"song7.mp3",
+        image:"img7.jpg",
+        singer:"Sachet Tandon"
+    },
+    {
+        name:"Gulabi Sadi",
+        path:"song8.mp3",
+        image:"img8.jpg",
+        singer:"Sanju Rathod"
+    },{
+        name:"Angaroon",
+        path:"song9.mp3",
+        image:"img9.jpg",
+        singer:"Shreya Ghoshal"
+    },{
+        name:"Tujhe jeet jeet Haaru",
+        path:"song10.mp3",
+        image:"img10.jpg",
+        singer:"Kailash Kher"
+    },{
+        name:"Mere Naam Tu",
+        path:"song11.mp3",
+        image:"img11.jpg",
+        singer:"Abhay Jodhpurkar"
+    },{
+        name:"Shiv Tandav",
+        path:"song12.mp3",
+        image:"img12.jpg",
+        singer:"Sachet Tondon"
+    },{
+        name:"Suniya Suniya Rata",
+        path:"song13.mp3",
+        image:"img13.jpg",
+        singer:"Russ"
+    },{
+        name:"Jeena Sikha De",
+        path:"song14.mp3",
+        image:"img14.jpg",
+        singer:"Arjit Singh"
+    },{
+        name:"Baby",
+        path:"song15.mp3",
+        image:"img15.jpg",
+        singer:"Justin Biber"
+    }
+]

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <img src="playlist.svg" alt="playlist" id="playlist-img">
+        <h2> MUSIC PLAYLIST </h2>
+        <img src="music.svg" alt="music" id="music-img">
+    </header>
+    <main>   
+        <div class="left">
+            <div class="song-img">
+            </div>
+        <div class="volume-div">
+            <div class="volume-img">
+                <img src="volume.svg" alt="volume" id="vol-svg" onclick="mutesound()">
+            </div>
+            <input type="range" id="volume-range" onclick="volume()">
+            <span id="volume-percentage">100%</span>
+
+        </div>
+                
+        </div>
+
+        <div class="right">
+            <div class="details">
+                <h3 id="song-name">Ve Kamleya</h3>
+                <h5 id="song-singer">Arjit Singh</h5>
+            </div>
+            <input type="range" id="song-durations" onchange="duration()" oninput="duration()">
+            <div class="controls">
+                <div class="prev-img">
+                    <img src="previous.svg" alt="prev" id="prev-img" onclick="previousSong()">   
+                </div>
+          
+                <div class="play-pause">
+                    <img src="play.svg" alt="play" id="play-pause" onclick="playPause()">
+                </div>
+                <div class="next-img">
+                <img src="next.svg" alt="next" id="next-img" onclick="nextSong()">
+            </div>
+            </div>
+            <div id="song-timing">00:00 / 00:00</div> 
+
+        </div>
+        <div class="playlist">
+            <div class="playlist-song">
+                <img src="img5.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Remix</h3>
+                    <h5>Bollywood</h5>
+                </div>
+                <div class="playlist-song">
+                    <img src="img4.jpg" alt="img">
+                    <div class="song-details">
+                        <h3>O Mahi O Mahi</h3>
+                        <h5>Arjit Singh</h5>
+                    </div>
+                </div>
+                <div class="playlist-song">
+                    <img src="img3.jpg" alt="img">
+                    <div class="song-details">
+                        <h3>O Sajani Re</h3>
+                        <h5>Arjit Singh</h5>
+                    </div>
+                </div>
+                <div class="playlist-song">
+                <img src="img2.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Ve Haniya</h3>
+                    <h5>Jubin Nautiyal</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img1.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Ve Kamleya</h3>
+                    <h5>Arjit Singh</h5>
+                </div>
+            </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img6.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Mere Mehboob Mere Sanam</h3>
+                    <h5>Udit Narayan</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img7.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Ram Siya Ram</h3>
+                    <h5>Sachet Tondon</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img8.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Gulabi Sadi</h3>
+                    <h5>Sanju Rathod</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img9.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Angaroon</h3>
+                    <h5>Shreya Ghoshal</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img10.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Tujhe jeet jeet Haaru</h3>
+                    <h5>Kailash Kher</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img11.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Mere Naam Tu</h3>
+                    <h5>Abhay Jodhpurkar</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img12.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Shiv-Tandav</h3>
+                    <h5>Sachet Tondon</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img13.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Suniya Suniya Rata</h3>
+                    <h5>Russ</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img14.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Jeena Sikha De</h3>
+                    <h5>Arjit Singh</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img15.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Baby</h3>
+                    <h5>Justin Biber</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="img16.jpg" alt="img">
+                <div class="song-details">
+                    <h3>Tum Ho</h3>
+                    <h5>Mohit Chauhan</h5>
+                </div>
+            </div>
+            
+        </div>
+        
+
+    </main>
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2024 Dipak Shinde. All Rights Reserved.</p>
+          <ul class="socials">
+            <li><a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/your-github-profile" target="_blank">GitHub</a></li>
+            <li><a href="mailto:your-email@example.com">Email</a></li>
+          </ul>
+        </div>
+      </footer>    
+    <script src="script.js"></script>
+</body>
+</html>
